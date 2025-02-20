@@ -167,18 +167,21 @@ h1 {
   margin-top: 30px;
   text-align: center;
 }
+
 .cell {
   width: 70px;
-  height: 50px;
+  height: 70px;
   border: 1px solid rgb(158, 141, 206);
+  border-radius: 8px;
   background-color: rgba(158, 141, 206, 0.692);
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
   display: inline-block;
-  padding: 25px;
+  padding: 12px;
   text-align: center;
   padding-left: 14px;
+  margin: 6px;
 }
 .selected {
   background-color: rgba(255, 255, 255, 0.459);
@@ -189,7 +192,7 @@ h1 {
   padding: 15px;
   font-weight: bold;
   border-radius: 10px;
-  margin-left: 56em;
+  margin-left: 46%;
   margin-top: 40px;
   cursor: pointer;
 }
