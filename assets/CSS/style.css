@@ -148,15 +148,21 @@ hr {
 
 #current-year,
 footer {
-  text-align: center;
-  margin-top: 80px;
+  margin-top: 14px;
   font-size: 14px;
+  margin-left: 454px;
 }
 
-h1 {
+/* h1 {
   text-align: center;
   margin-top: 20px;
   font-weight: 900;
+} */
+
+#logo {
+  width: 8%;
+  margin-left: 45%;
+  margin-bottom: 0px;
 }
 
 #board {
@@ -164,7 +170,7 @@ h1 {
   display: inline-block;
   margin-left: 110px;
   margin-right: 118px;
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -200,4 +206,8 @@ h1 {
 #random-button:hover {
   background-color: rgba(255, 255, 255, 0.459);
   transform: scale(1.2);
+}
+
+#container2 h2 {
+  margin-left: 570px;
 }
